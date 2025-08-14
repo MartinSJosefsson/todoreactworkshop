@@ -6,7 +6,7 @@ body {
 
 #sidebar {
   transition: all 0.3s ease;
-  z-index: 2; /* Ensure sidebar is above main content */
+  z-index: 2; 
 }
 
 #sidebar-column {
@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 
-/* Expand main content when sidebar is collapsed */
+
 .col-12.col-md-9.col-lg-10 {
   transition: all 0.3s ease;
 }
@@ -31,22 +31,21 @@ body {
   flex: 0 0 100%;
 }
 
-/* Ensure header stays within its column and doesn't stretch */
+
 header {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  z-index: 1; /* Below sidebar to avoid overlap */
+  z-index: 1; 
 }
 
-/* Center search bar within header */
+
 .input-group.w-50 {
-  max-width: 500px; /* Prevent search bar from becoming too wide */
+  max-width: 500px; 
 }
 
-/* Style hamburger button icon */
 .btn-outline-dark .bi-list::before {
-  color: black; /* Ensure icon is black */
+  color: black; 
 }
 
 @media (min-width: 768px) {
@@ -105,7 +104,6 @@ button {
   color: #fff;
 }
 
-/* Add padding below footer */
 .col-12.col-md-9.col-lg-10 {
-  padding-bottom: 1.5rem; /* Matches Bootstrap's pb-4 */
+  padding-bottom: 1.5rem; 
 }
